@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives: 2020 | </title>
+  <title>JavaScript 防抖和节流 | </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title">
-<meta property="og:url" content="http://example.com/archives/2020/index.html">
+  <meta name="description" content="防抖 (debouncd)防抖是指，某些代码不可以在没有间隔的情况下连续执行。第一次调用函数，创建一个定时器，在指定的时间间隔之后运行代码。当第二次调用函数是，清除前一个定时器并设置另外一个。如果前一个定时器已经执行，那么这个操作就没有什么意义。然而，如果前一个定时器尚未执行，那就是将其替换成一个新的定时器。目的是只有在执行函数的请求停止了一段时间之后在执行。 节流 (throttle)节流是指连">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript 防抖和节流">
+<meta property="og:url" content="http://example.com/2020/10/13/dbAndth/index.html">
 <meta property="og:site_name">
+<meta property="og:description" content="防抖 (debouncd)防抖是指，某些代码不可以在没有间隔的情况下连续执行。第一次调用函数，创建一个定时器，在指定的时间间隔之后运行代码。当第二次调用函数是，清除前一个定时器并设置另外一个。如果前一个定时器已经执行，那么这个操作就没有什么意义。然而，如果前一个定时器尚未执行，那就是将其替换成一个新的定时器。目的是只有在执行函数的请求停止了一段时间之后在执行。 节流 (throttle)节流是指连">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-10-12T16:28:22.000Z">
+<meta property="article:modified_time" content="2020-10-12T16:32:55.979Z">
 <meta property="article:author" content="Qi YuanYuan">
 <meta name="twitter:card" content="summary">
   
@@ -191,114 +195,136 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-dbAndth" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      JavaScript 防抖和节流
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/13/dbAndth/" class="archive-article-date">
+
+        
+        <a href="/2020/10/13/dbAndth/" class="archive-article-date">
   	<time datetime="2020-10-12T16:28:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-13</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/13/dbAndth/">JavaScript 防抖和节流</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="防抖-debouncd"><a href="#防抖-debouncd" class="headerlink" title="防抖 (debouncd)"></a>防抖 (debouncd)</h2><p>防抖是指，某些代码不可以在没有间隔的情况下连续执行。第一次调用函数，创建一个定时器，在指定的时间间隔之后运行代码。当第二次调用函数是，清除前一个定时器并设置另外一个。<br>如果前一个定时器已经执行，那么这个操作就没有什么意义。然而，如果前一个定时器尚未执行，那就是将其替换成一个新的定时器。目的是只有在执行函数的请求停止了一段时间之后在执行。</p>
+<h2 id="节流-throttle"><a href="#节流-throttle" class="headerlink" title="节流 (throttle)"></a>节流 (throttle)</h2><p>节流是指连续触发事件但是在 wait 秒中只执行一次函数。节流会稀释函数的执行频率</p>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/10/13/dbAndth/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/12/es6/" class="archive-article-date">
-  	<time datetime="2020-10-12T15:41:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-12</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/10/12/es6/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">ECMAScript 6新特性简介</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/12/es6/">ECMAScript 6新特性简介</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/12/myFrist/" class="archive-article-date">
-  	<time datetime="2020-10-12T09:50:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-12</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/12/myFrist/">myFrist</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">aboutHexo</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -321,8 +347,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
